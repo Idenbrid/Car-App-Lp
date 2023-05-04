@@ -80,7 +80,9 @@
         <div class="main-inner">
           <div class="sentence-area">
             <h2>全く新しいニュースアプリを<br>体感したい方へ</h2>
-            <figure class="sp"><img src="/assets/images/img03-sp.png" alt="スマートフォン表示"></figure>
+            <figure class="sp">
+              <img src="/assets/images/img03-sp.png" alt="スマートフォン表示">
+            </figure>
             <p>ニュース記事の情報をより深く理解したい方や、アート作品に興味がある方、最新のコンテンツを体験したい方など、いつも使っているニュースアプリとは異なる新しいニュースアプリを体感してみたい方におすすめです。</p>
           </div>
           <div class="figure-area">
@@ -94,11 +96,16 @@
         <h2><img src="/assets/images/logo02.png" alt="NIKKEI VR"></h2>
         <h3>日経VRのダウンロードはこちら</h3>
         <div class="btn">
-          <figure class="btn_apple"><a href="https://apps.apple.com/jp/app/id1496570844" target="_blank"><img
-                src="/assets/images/btn_apple.png" alt="App Store"></a></figure>
-          <figure class="btn_google"><a
-              href="https://play.google.com/store/apps/details?id=com.nikkei.nikkeivr&amp;hl=ja" target="_blank"><img
-                src="/assets/images/btn_google.png" alt="Google Play"></a></figure>
+          <figure class="btn_apple">
+            <a href="https://apps.apple.com/jp/app/id1496570844" target="_blank">
+              <img src="/assets/images/btn_apple.png" alt="App Store">
+            </a>
+          </figure>
+          <figure class="btn_google">
+            <a href="https://play.google.com/store/apps/details?id=com.nikkei.nikkeivr&amp;hl=ja" target="_blank">
+              <img src="/assets/images/btn_google.png" alt="Google Play">
+              </a>
+          </figure>
         </div>
       </section>
       <!-- /.download -->
