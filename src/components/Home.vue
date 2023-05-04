@@ -4,14 +4,18 @@
       <section class="hero">
         <h1><img src="/assets/images/logo01.png" alt="NIKKEI VR"></h1>
         <div class="btn">
-          <figure class="btn_apple"><a href="https://apps.apple.com/jp/app/id1496570844" target="_blank"><img
-                src="/assets/images/btn_apple.png" alt="App Store"></a></figure>
-          <figure class="btn_google"><a
-              href="https://play.google.com/store/apps/details?id=com.nikkei.nikkeivr&amp;hl=ja" target="_blank"><img
-                src="/assets/images/btn_google.png" alt="Google Play"></a></figure>
+          <figure class="btn_apple"><a href="#" target="_blank">
+              <img src="/assets/images/btn_apple.png" alt="App Store">
+            </a>
+          </figure>
+          <figure class="btn_google">
+            <a href="#" target="_blank">
+              <img src="/assets/images/btn_google.png" alt="Google Play">
+            </a>
+          </figure>
         </div>
       </section>
-      <!-- /.hero -->
+      <!-- / section hero -->
 
       <!--slide_area-->
       <section class="slide_area">
@@ -24,21 +28,21 @@
             <div class="slick_area" id="car-slider">
               <div class="swiper carapp">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"> 
+                  <div class="swiper-slide">
                     <img src="/assets/images/index_slide07_bg.jpg" alt class="pc">
                     <img src="/assets/images/index_slide07_bg_sp.jpg" alt class="sp">
                   </div>
-                  <div class="swiper-slide"> 
+                  <div class="swiper-slide">
                     <img src="/assets/images/index_slide06_bg.jpg" alt class="pc">
                     <img src="/assets/images/index_slide06_bg_sp.jpg" alt class="sp">
                   </div>
-                  <div class="swiper-slide"> 
+                  <div class="swiper-slide">
                     <img src="/assets/images/index_slide02_bg.jpg" alt class="pc">
-                     <img src="/assets/images/index_slide02_bg_sp.jpg" alt class="sp"></div>
-                  <div class="swiper-slide"> 
+                    <img src="/assets/images/index_slide02_bg_sp.jpg" alt class="sp"></div>
+                  <div class="swiper-slide">
                     <img src="/assets/images/index_slide03_bg.jpg" alt class="pc">
                     <img src="/assets/images/index_slide03_bg_sp.jpg" alt class="sp"></div>
-              
+
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -52,29 +56,37 @@
         <div class="main-inner">
           <div class="sentence-area">
             <h2>360°動画やイメージで<br>現場の臨場感を体験</h2>
-            <figure class="sp"><img src="/assets/images/img01-sp.png" alt="スマートフォン表示"></figure>
+            <figure class="sp">
+              <img src="/assets/images/img01-sp.png" alt="スマートフォン表示">
+            </figure>
             <p>文章からは読み取れなかった情報を、360°映像の中で発見できるかもしれません。まさに、現場にいるかのような臨場感を味わっていただけます。</p>
           </div>
           <div class="figure-area">
-            <figure class="pc"><img src="/assets/images/img01.png" alt="スマートフォン表示"></figure>
+            <figure class="pc">
+              <img src="/assets/images/img01.png" alt="スマートフォン表示">
+            </figure>
           </div>
         </div>
       </section>
-      <!-- /.main01 -->
+      <!-- / section-main-01 -->
 
       <section class="main02">
         <div class="main-inner">
           <div class="sentence-area">
             <h2> VRミュージアムで<br>これまでになかった<br>新しい美術鑑賞を</h2>
-            <figure class="sp"><img src="/assets/images/img02-sp.png" alt="スマートフォン表示"></figure>
+            <figure class="sp">
+              <img src="/assets/images/img02-sp.png" alt="スマートフォン表示">
+            </figure>
             <p>自分のぺースで好きな時に好きなだけ、VRミュージアム内を歩いてアート作品をお楽しみください。日本経済新聞社主催の美術展などのアート作品をご鑑賞いただけます。*近日公開予定</p>
           </div>
           <div class="figure-area">
-            <figure class="pc"><img src="/assets/images/img02.png" alt="スマートフォン表示"></figure>
+            <figure class="pc">
+              <img src="/assets/images/img02.png" alt="スマートフォン表示">
+            </figure>
           </div>
         </div>
       </section>
-      <!-- /.main02 -->
+      <!-- / section-main-02 -->
 
       <section class="main03">
         <div class="main-inner">
@@ -104,7 +116,7 @@
           <figure class="btn_google">
             <a href="https://play.google.com/store/apps/details?id=com.nikkei.nikkeivr&amp;hl=ja" target="_blank">
               <img src="/assets/images/btn_google.png" alt="Google Play">
-              </a>
+            </a>
           </figure>
         </div>
       </section>
@@ -114,24 +126,24 @@
 </template>
 
 <script>
-export default{
-mounted(){
-  var swiper = new Swiper(".carapp", {
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
-}
-}
+  export default {
+    mounted() {
+      var swiper = new Swiper(".carapp", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    }
+  }
 </script>
 <style>
-#car-slider .swiper-pagination-bullet{
-  background: #fff;
-  opacity: 1;
-}
+  #car-slider .swiper-pagination-bullet {
+    background: #fff;
+    opacity: 1;
+  }
 
-#car-slider .swiper-pagination-bullet.swiper-pagination-bullet-active{
-  background: #b6a777;
+  #car-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #b6a777;
 
-}
+  }
 </style>
