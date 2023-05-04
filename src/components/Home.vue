@@ -34,15 +34,14 @@
                   </div>
                   <div class="swiper-slide"> 
                     <img src="/assets/images/index_slide02_bg.jpg" alt class="pc">
-                     <img src="/assets/images/index_slide02_bg_sp.jpg" alt class="sp">
-                     </div>
+                     <img src="/assets/images/index_slide02_bg_sp.jpg" alt class="sp"></div>
                   <div class="swiper-slide"> 
                     <img src="/assets/images/index_slide03_bg.jpg" alt class="pc">
                     <img src="/assets/images/index_slide03_bg_sp.jpg" alt class="sp">
                     </div>
                 </div>
-              </div>
                 <div class="swiper-pagination"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -111,12 +110,8 @@
 export default{
 mounted(){
   var swiper = new Swiper(".carapp", {
-     loop: true,
-
     pagination: {
       el: ".swiper-pagination",
-      clickable:true,
-      
     },
   });
 }
@@ -133,9 +128,5 @@ mounted(){
 #car-slider .swiper-pagination-bullet.swiper-pagination-bullet-active{
   background: #b6a777;
 
-}
-.swiper-pagination{
-  position: relative;
-  top: 5px !important;
 }
 </style>
