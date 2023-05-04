@@ -4,10 +4,10 @@
       <section class="hero">
         <h1><img src="/assets/images/logo01.png" alt="NIKKEI VR"></h1>
         <div class="btn">
-          <figure class="btn_apple"><a href="https://apps.apple.com/jp/app/id1496570844" target="_blank"><img
+          <figure class="btn_apple"><a href="#" target="_blank"><img
                 src="/assets/images/btn_apple.png" alt="App Store"></a></figure>
           <figure class="btn_google"><a
-              href="https://play.google.com/store/apps/details?id=com.nikkei.nikkeivr&amp;hl=ja" target="_blank"><img
+              href="#" target="_blank"><img
                 src="/assets/images/btn_google.png" alt="Google Play"></a></figure>
         </div>
       </section>
@@ -94,11 +94,12 @@
         <h2><img src="/assets/images/logo02.png" alt="NIKKEI VR"></h2>
         <h3>日経VRのダウンロードはこちら</h3>
         <div class="btn">
-          <figure class="btn_apple"><a href="https://apps.apple.com/jp/app/id1496570844" target="_blank"><img
+          <figure class="btn_apple"><a href="#" target="_blank"><img
                 src="/assets/images/btn_apple.png" alt="App Store"></a></figure>
-          <figure class="btn_google"><a
-              href="https://play.google.com/store/apps/details?id=com.nikkei.nikkeivr&amp;hl=ja" target="_blank"><img
-                src="/assets/images/btn_google.png" alt="Google Play"></a></figure>
+          <figure class="btn_google">
+            <a href="#" target="_blank">
+              <img src="/assets/images/btn_google.png" alt="Google Play"></a>
+            </figure>
         </div>
       </section>
       <!-- /.download -->
@@ -107,7 +108,7 @@
 </template>
 
 <script>
-export default{
+export default{ 
 mounted(){
   var swiper = new Swiper(".carapp", {
     loop:true,
