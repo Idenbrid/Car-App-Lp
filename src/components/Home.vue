@@ -110,8 +110,10 @@
 export default{
 mounted(){
   var swiper = new Swiper(".carapp", {
+    loop:true,
     pagination: {
       el: ".swiper-pagination",
+      clickable:true,
     },
   });
 }
@@ -127,6 +129,9 @@ mounted(){
 
 #car-slider .swiper-pagination-bullet.swiper-pagination-bullet-active{
   background: #b6a777;
-
+}
+.swiper-pagination{
+  position: relative;
+  top: 5px !important;
 }
 </style>
