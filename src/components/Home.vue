@@ -21,8 +21,8 @@
               <img src="/assets/images/index_slide_ttl.png" alt="" class="pc">
               <img src="/assets/images/index_slide_ttl_sp.png" alt="" class="sp">
             </div>
-            <div class="slick_area">
-              <div class="swiper mySwiper">
+            <div class="slick_area" id="car-slider">
+              <div class="swiper carapp">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide"> 
                     <img src="/assets/images/index_slide07_bg.jpg" alt class="pc">
@@ -109,12 +109,22 @@
 <script>
 export default{
 mounted(){
-  var swiper = new Swiper(".mySwiper", {
+  var swiper = new Swiper(".carapp", {
     pagination: {
       el: ".swiper-pagination",
     },
   });
 }
 }
-
 </script>
+<style>
+#car-slider .swiper-pagination-bullet{
+  background: #fff;
+  opacity: 1;
+}
+
+#car-slider .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background: #b6a777;
+
+}
+</style>
